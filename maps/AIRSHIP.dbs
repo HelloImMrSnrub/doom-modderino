@@ -1,0 +1,80 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	AIRSHIP
+	{
+		
+		resources
+		{
+		}
+		defaultfloortexture = "BLACK";
+		defaultceiltexture = "BLACK";
+		defaulttoptexture = "BLACK";
+		defaultwalltexture = "BLACK";
+		defaultbottomtexture = "BLACK";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = 979.1484f;
+		viewpositiony = 1200.789f;
+		viewscale = 0.6499999f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32f;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
+		}
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				light = 0;
+				offsetx_bottom = 1;
+				offsetx_top = 1;
+				offsety_mid = 1;
+				offsety_top = 1;
+			}
+			
+			sector
+			{
+				lightceiling = 0;
+				rotationfloor = 17;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 17;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+			}
+		}
+	}
+}

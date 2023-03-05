@@ -1,0 +1,192 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	WINDY
+	{
+		
+		resources
+		{
+		}
+		defaultfloortexture = "WGRASS1";
+		defaultceiltexture = "F_SKY1";
+		defaulttoptexture = "BWALL09";
+		defaultwalltexture = "BWALL09";
+		defaultbottomtexture = "BWALL09";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = -2691.687f;
+		viewpositiony = 4182.286f;
+		viewscale = 1.352479f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 500;
+			backoffsety = 0;
+			backscalex = 150;
+			backscaley = 150;
+			gridsize = 16f;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
+		}
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -512f;
+					outerright = 0f;
+					outertop = 512f;
+					outerbottom = 0f;
+				}
+			}
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+					
+					prefab1
+					{
+						name = "[Previous]";
+						numberofsectors = 1;
+						outervertexmultiplier = 1;
+						innervertexmultiplier = 1;
+						stairtype = 0;
+						sectordepth = 64;
+						spacing = 0;
+						frontside = true;
+						singlesectors = true;
+						distinctsectors = false;
+						singledirection = false;
+						distinctbaseheights = false;
+						flipping = 0;
+						numberofcontrolpoints = 1;
+						applyfloormod = true;
+						floormod = 0;
+						applyceilingmod = true;
+						ceilingmod = 0;
+						applyfloortexture = false;
+						floortexture = "";
+						applyceilingtexture = false;
+						ceilingtexture = "";
+						applyuppertexture = true;
+						uppertexture = "-";
+						upperunpegged = true;
+						applymiddletexture = false;
+						middletexture = "-";
+						applylowertexture = true;
+						lowertexture = "-";
+						lowerunpegged = true;
+					}
+				}
+			}
+		}
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsetx_top = 1;
+				offsetx_bottom = 1;
+				offsety_top = 1;
+				offsety_mid = 1;
+				offsety_bottom = 1;
+			}
+			
+			sector
+			{
+				xpanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				ypanningfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				rotationceiling = 1;
+				rotationfloor = 1;
+				lightcolor = 0;
+				fadecolor = 0;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				activetab = true;
+			}
+			
+			document2
+			{
+				filename = "C:\\Users\\brett\\Desktop\\doom mod\\gzdoom-4-7-1-Windows-64bit\\please work.ipk3\\mapinfo.lmp";
+				hash = 2644325875;
+				resource = "C:\\Users\\brett\\Desktop\\doom mod\\gzdoom-4-7-1-Windows-64bit\\please work.ipk3";
+				tabtype = 1;
+				scripttype = 6;
+				caretposition = 1711;
+				firstvisibleline = 62;
+			}
+			
+			document3
+			{
+				filename = "C:\\Users\\brett\\Desktop\\doom mod\\gzdoom-4-7-1-Windows-64bit\\please work.ipk3\\SBARINFO";
+				hash = 4045397490;
+				resource = "C:\\Users\\brett\\Desktop\\doom mod\\gzdoom-4-7-1-Windows-64bit\\please work.ipk3";
+				tabtype = 1;
+				scripttype = 17;
+			}
+			
+			document4
+			{
+				filename = "C:\\Users\\brett\\Desktop\\doom mod\\gzdoom-4-7-1-Windows-64bit\\please work.ipk3\\menudef.lmp";
+				hash = 3162154108;
+				resource = "C:\\Users\\brett\\Desktop\\doom mod\\gzdoom-4-7-1-Windows-64bit\\please work.ipk3";
+				tabtype = 1;
+				scripttype = 16;
+			}
+		}
+	}
+}
