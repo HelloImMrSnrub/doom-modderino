@@ -11,11 +11,11 @@ maps
 		resources
 		{
 		}
-		defaultfloortexture = "PLANKA1";
+		defaultfloortexture = "F_SKY1";
 		defaultceiltexture = "F_SKY1";
-		defaulttoptexture = "WWINDOWA";
-		defaultwalltexture = "WWINDOWA";
-		defaultbottomtexture = "WWINDOWA";
+		defaulttoptexture = "F_SKY1";
+		defaultwalltexture = "F_SKY1";
+		defaultbottomtexture = "F_SKY1";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -29,9 +29,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 45.61948f;
-		viewpositiony = 4752.086f;
-		viewscale = 1.352465f;
+		viewpositionx = -2380.073f;
+		viewpositiony = 3350.241f;
+		viewscale = 3.862771f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -113,27 +113,13 @@ maps
 			sidedef
 			{
 				offsetx_mid = 1;
-				offsetx_top = 1;
 				offsetx_bottom = 1;
-				offsety_top = 1;
-				offsety_mid = 1;
-				offsety_bottom = 1;
 			}
 			
 			sector
 			{
 				xpanningfloor = 1;
-				xpanningceiling = 1;
-				ypanningceiling = 1;
-				xscaleceiling = 1;
-				yscaleceiling = 1;
 				ypanningfloor = 1;
-				xscalefloor = 1;
-				yscalefloor = 1;
-				lightcolor = 0;
-				fadecolor = 0;
-				rotationfloor = 1;
-				rotationceiling = 1;
 			}
 		}
 		
